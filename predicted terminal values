@@ -1,0 +1,166 @@
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred2.py
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: 95.84%
+Root Mean Squared Error: 34.04
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred3.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+Traceback (most recent call last):
+  File "/home/kali/Music/pycode/pyc/timebasispred3.py", line 68, in <module>
+    rmse = deprecated(
+           ^^^^^^^^^^^
+TypeError: deprecated.__init__() takes from 1 to 2 positional arguments but 5 were given
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred3.py 
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: 96.27%
+Root Mean Squared Error: 32.25
+Mean Absolute Error: 13.96
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py 
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: 95.25%
+Root Mean Squared Error: 36.37
+Mean Absolute Error: 14.37
+Accuracy: 3.33%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: 95.51%
+Root Mean Squared Error: 32.33
+Mean Absolute Error: 15.36
+Accuracy: 3.33%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: 95.65%
+Root Mean Squared Error: 31.82
+Mean Absolute Error: 15.10
+Accuracy: 2.50%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/home/kali/Music/pycode/pyc/timebasispred4.py:16: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value 'unassigned' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  df.fillna("unassigned", inplace=True)
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: -6.95%
+Root Mean Squared Error: 308.17
+Mean Absolute Error: 19.32
+Accuracy: 8.85%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: -8.47%
+Root Mean Squared Error: 310.35
+Mean Absolute Error: 19.66
+Accuracy: 8.85%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: -6.23%
+Root Mean Squared Error: 97.92
+Mean Absolute Error: 78.12
+Accuracy: 0.00%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py 
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared value: 85.31%
+Root Mean Squared Error (RMSE): 56.03
+Mean Absolute Percentage Error (MAPE): inf%
+Prediction Accuracy: 7.14%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred4.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared value: 73.28%
+Root Mean Squared Error (RMSE): 32.55
+Mean Absolute Percentage Error (MAPE): inf%
+Prediction Accuracy: 8.50%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred5.py 
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+R-squared error: 95.02%
+Root Mean Squared Error: 37.25
+Accuracy (RMSE <= 100): 100.00%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred5.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+Root Mean Squared Error (RMSE): 35.69
+Target Range: 1000.00
+Percentage Accuracy: 96.43%
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred6.py 
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+Best hyperparameters: {'regressor__max_depth': 10, 'regressor__min_samples_leaf': 1, 'regressor__min_samples_split': 2, 'regressor__n_estimators': 100}
+Root Mean Squared Error (RMSE) after tuning: 125.12
+                                                                                                                                                                                                              
+┌──(kali㉿kali)-[~/Music/pycode/pyc]
+└─$ python3 timebasispred6.py
+WARNING *** file size (151263926) not 512 + multiple of sector size (512)
+WARNING *** OLE2 inconsistency: SSCS size is 0 but SSAT size is non-zero
+/usr/local/lib/python3.11/dist-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+Best hyperparameters: {'regressor__max_depth': 20, 'regressor__min_samples_leaf': 1, 'regressor__min_samples_split': 5, 'regressor__n_estimators': 50}
+Root Mean Squared Error (RMSE) after tuning: 33.90
+
+
+
+
+
+
+
+
+
+
+
